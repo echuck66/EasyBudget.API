@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBudget.API", "EasyBudget.API\EasyBudget.API.csproj", "{043936F6-4546-404A-9AD8-907AF167C723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBudget.Models", "..\EasyBudget\EasyBudget.Models\EasyBudget.Models.csproj", "{CA36021C-6B12-4D54-97B2-0378575DF1E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBudget.Repository", "EasyBudget.Repository\EasyBudget.Repository.csproj", "{9800794D-2774-483D-88BF-6679E6937FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBudget.UnitOfWork", "EasyBudget.UnitOfWork\EasyBudget.UnitOfWork.csproj", "{487FEE99-A60B-478B-97D0-2EB00AA2D5C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{043936F6-4546-404A-9AD8-907AF167C723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043936F6-4546-404A-9AD8-907AF167C723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043936F6-4546-404A-9AD8-907AF167C723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043936F6-4546-404A-9AD8-907AF167C723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA36021C-6B12-4D54-97B2-0378575DF1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA36021C-6B12-4D54-97B2-0378575DF1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA36021C-6B12-4D54-97B2-0378575DF1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA36021C-6B12-4D54-97B2-0378575DF1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9800794D-2774-483D-88BF-6679E6937FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9800794D-2774-483D-88BF-6679E6937FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9800794D-2774-483D-88BF-6679E6937FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9800794D-2774-483D-88BF-6679E6937FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487FEE99-A60B-478B-97D0-2EB00AA2D5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487FEE99-A60B-478B-97D0-2EB00AA2D5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487FEE99-A60B-478B-97D0-2EB00AA2D5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487FEE99-A60B-478B-97D0-2EB00AA2D5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
