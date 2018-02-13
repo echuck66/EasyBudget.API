@@ -1,6 +1,9 @@
 ﻿using System;
 namespace EasyBudget.API.Models
 {
+    /// <summary>
+    /// Link. Used for HATEOAS links to related objects.
+    /// </summary>
     public class Link
     {
         public string rel { get; set; }
