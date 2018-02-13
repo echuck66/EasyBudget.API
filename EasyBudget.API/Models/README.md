@@ -6,7 +6,7 @@
 Source: [API Design Best Practices](https://github.com/mspnp/architecture-center/blob/master/docs/best-practices/api-design.md)
 
 
-`HTTP/1.1 200 OK
+```HTTP/1.1 200 OK
 ...
 Content-Type: application/json; charset=utf-8
 ...
@@ -32,4 +32,4 @@ Content-Length: ...
     "href":"http://adventure-works.com/customers/2/orders",
     "action":"POST",
     "types":["application/x-www-form-urlencoded"]}
-]}`
+]}```
