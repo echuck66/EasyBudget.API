@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace EasyBudget.API.Models
 {
     /// <summary>
@@ -6,17 +8,20 @@ namespace EasyBudget.API.Models
     /// </summary>
     public class Link
     {
-        public string rel { get; set; }
+        public string Rel { get; set; }
 
-        public HttpVerb verb { get; set; }
+        public string Href { get; set; }
 
-        public string href { get; set; }
+        public HttpVerb Action { get; set; }
 
-        public Link(string related, HttpVerb verb, string url)
+        public ICollection<string> Types { get; set; }
+
+        public Link(string rel, HttpVerb action, string url)
         {
-            this.rel = related;
-            this.verb = verb;
-            this.href = url;
+            this.Rel = rel;
+            this.Action = action;
+            this.Href = url;
+            this.Types = new List<string>();
         }
     }
 
