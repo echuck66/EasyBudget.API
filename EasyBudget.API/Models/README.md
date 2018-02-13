@@ -3,7 +3,7 @@
 Each object type has a corresponding controller, and this folder contains 
 the return object models used in the REST API responses.
 
-## Example REST Response
+## Example REST (HATEOAS) Response
 
 Source: [API Design Best Practices](https://github.com/mspnp/architecture-center/blob/master/docs/best-practices/api-design.md)
 
