@@ -2,45 +2,46 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EasyBudget.API.Models;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace EasyBudget.API.Controllers
 {
-    [Route("api/[controller]")]
     public class SavingsWithdrawalController : Controller
     {
-        // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("api/SavingsAccount/{accountId}/SavingsWithdrawals")]
+        public IEnumerable<SavingsWithdrawal> GetWithdrawals(int accountId)
         {
-            return new string[] { "value1", "value2" };
+            throw new NotImplementedException();
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("api/SavingsWithdrawal/{id}")]
+        public SavingsWithdrawal Get(int id)
         {
-            return "value";
+            throw new NotImplementedException();
         }
 
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        [Route("api/SavingsWithdrawal")]
+        public void Post([FromBody]SavingsWithdrawal item)
         {
+            throw new NotImplementedException();
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        [Route("api/SavingsWithdrawal/{id}")]
+        public void Put(int id, [FromBody]SavingsWithdrawal item)
         {
+            throw new NotImplementedException();
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("api/SavingsWithdrawal/{id}")]
         public void Delete(int id)
         {
+            throw new NotImplementedException();
         }
     }
 }
