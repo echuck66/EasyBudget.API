@@ -1,5 +1,7 @@
 # Models used to create return objects from API controllers
 
+Each object type has a corresponding controller, and this folder contains 
+the return object models used in the REST API responses.
 
 ## Example REST Response
 
@@ -32,4 +34,4 @@ Content-Length: ...
     "href":"http://adventure-works.com/customers/2/orders",
     "action":"POST",
     "types":["application/x-www-form-urlencoded"]}
-]}```
+]}
