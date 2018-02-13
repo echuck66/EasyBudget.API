@@ -5,7 +5,10 @@ the return object models used in the REST API responses.
 
 ## Example REST (HATEOAS) Response
 
-Source: [API Design Best Practices](https://github.com/mspnp/architecture-center/blob/master/docs/best-practices/api-design.md)
+[HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) - Acronym for "Hypermedia As The Engine Of Application State"
+
+
+Example Source: [API Design Best Practices](https://github.com/mspnp/architecture-center/blob/master/docs/best-practices/api-design.md)
 
 
 ```HTTP/1.1 200 OK
