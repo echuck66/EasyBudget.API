@@ -4,7 +4,7 @@ project.
 
 ## Related Project 
 
-This project references the EasyBudget.Models assembly
+This project references the EasyBudget.Models assembly in 
 [EasyBudget](https://github.com/echuck66/EasyBudget)
 
 ## Notes
